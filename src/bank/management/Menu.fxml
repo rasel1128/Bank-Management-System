@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1084.0" style="-fx-background-color: #009933;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bank.management.MenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="377.0" layoutY="21.0" text="UR Online Bank" textFill="#fff3f3">
+         <font>
+            <Font name="Elephant" size="45.0" />
+         </font>
+      </Label>
+      <Button layoutX="423.0" layoutY="405.0" mnemonicParsing="false" onAction="#sme_tran" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="SME Transections" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="423.0" layoutY="456.0" mnemonicParsing="false" onAction="#transfer" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="Transfer" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="422.0" layoutY="155.0" mnemonicParsing="false" onAction="#Create" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="Create Account" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="423.0" layoutY="205.0" mnemonicParsing="false" onAction="#show_customer" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="Show Customer" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="423.0" layoutY="256.0" mnemonicParsing="false" onAction="#deposit" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="Deposit Money" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="423.0" layoutY="306.0" mnemonicParsing="false" onAction="#withdraw" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="Withdraw Money" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="424.0" layoutY="356.0" mnemonicParsing="false" onAction="#sme_cust" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="SME Customer" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="422.0" layoutY="506.0" mnemonicParsing="false" onAction="#calculator" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="Calculator" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="422.0" layoutY="558.0" mnemonicParsing="false" onAction="#about" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="About" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="480.0" layoutY="91.0" text="Main Menu" textFill="#f2eeee" underline="true">
+         <font>
+            <Font name="Book Antiqua Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="423.0" layoutY="608.0" mnemonicParsing="false" onAction="#logout" prefHeight="39.0" prefWidth="306.0" style="-fx-background-color: #ffffff;" text="Logout" textFill="#086502">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1084.0" style="-fx-background-color: #009933;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bank.management.DepositeController">
+   <children>
+      <Label alignment="CENTER" layoutX="407.0" layoutY="51.0" text="UR Online Bank" textFill="#fff3f3">
+         <font>
+            <Font name="Elephant" size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="482.0" layoutY="113.0" text="Deposite Money" textFill="#f2eeee" underline="true">
+         <font>
+            <Font name="Book Antiqua Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="280.0" layoutY="209.0" mnemonicParsing="false" text="Search" textFill="#1f7c05">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField layoutX="181.0" layoutY="175.0" prefHeight="25.0" prefWidth="169.0" />
+      <Label layoutX="62.0" layoutY="174.0" text="Customer ID" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField layoutX="487.0" layoutY="267.0" prefHeight="25.0" prefWidth="311.0" />
+      <TextField layoutX="487.0" layoutY="304.0" prefHeight="25.0" prefWidth="311.0" />
+      <Label layoutX="324.0" layoutY="267.0" text="Name" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="321.0" layoutY="304.0" text="Account Number" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="746.0" layoutY="452.0" mnemonicParsing="false" onAction="#back_main" text="Back" textFill="#1f7c05">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="balance" layoutX="488.0" layoutY="340.0" prefHeight="25.0" prefWidth="311.0" />
+      <TextField fx:id="deposite" layoutX="490.0" layoutY="375.0" prefHeight="25.0" prefWidth="311.0" />
+      <TextField fx:id="total_balance" layoutX="490.0" layoutY="411.0" prefHeight="25.0" prefWidth="311.0" />
+      <Label layoutX="318.0" layoutY="340.0" text="Available Balance" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="316.0" layoutY="376.0" text="Deposited Money" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="314.0" layoutY="411.0" text="Total Amount" textFill="#f2eeee">
+         <font>
+            <Font name="Book Antiqua Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="661.0" layoutY="451.0" mnemonicParsing="false" onAction="#save_total" text="Save" textFill="#1f7c05">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="531.0" layoutY="646.0" text="Please Wait For Software Version 1.0.2" />
+   </children>
+</AnchorPane>
